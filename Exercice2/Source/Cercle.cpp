@@ -10,7 +10,7 @@
 namespace PFormeGeometrique {
 
     Cercle::Cercle(std::string nom, double rayon){
-        std::cin >> nom ;
+        this->nom = nom;
         this->rayon = rayon;
     }
 

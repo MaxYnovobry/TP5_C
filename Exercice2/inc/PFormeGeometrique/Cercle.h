@@ -14,6 +14,9 @@ namespace PFormeGeometrique {
         double rayon;
 
     public:
+
+        std::string nom;
+
         Cercle(std::string nom,double rayon);
 
         double Perimetre();
