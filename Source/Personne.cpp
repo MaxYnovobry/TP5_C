@@ -62,5 +62,22 @@ namespace TP5_C {
 
     //Create a method that enter a score
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    void Etudiant::rentrerNote(float note ) {
+        if (note < 0 || note > 20) {
+            std::cout << "Note invalide" << std::endl;
+        }
+        notes.push_back(note);
+    }
+
+    void getMoyenne() {
+        float somme = 0;
+        for (int i = 0; i < note.size(); i++) {
+            somme += note[i];
+        }
+        std::cout << "La moyenne est de : " << somme / notes.size() << std::endl;
+    }
 }
 

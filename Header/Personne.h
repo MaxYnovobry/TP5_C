@@ -6,6 +6,7 @@
 #define TP5_C_PERSONNE_H
 #include <iostream>
 #include <string>
+#include <vector>
 #include "../Header/Exercice1.h"
 
 namespace TP5_C {
@@ -41,6 +42,22 @@ namespace TP5_C {
 
         const int &getNumero() const;
     };
+    class  Etudiant : public Personne {
+    private:
+        std::vector<float> notes;
+
+    public  :
+        using Personne::Personne;
+        void rentrerNote(float note);
+
+        float getMoyenne() const;
+        float maxNotes() const;
+        float minNotes() const;
+        void afficherNotes() const;
+    };
 
 };
+;
 #endif //TP5_C_PERSONNE_H
+
+
