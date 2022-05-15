@@ -9,8 +9,8 @@
     namespace PFormeGeometrique {
 
         void Carre::affichage() const{
-            std::cout << longueur << std::endl;
-            std::cout << "Le périmètre est de " << perimetre() << std::endl;
-            std::cout << "Surface" << surface() << std::endl;
+            std::cout << a_longueur << std::endl;
+            std::cout << "Le perimetre du Carre est de : " << perimetre() << std::endl;
+            std::cout << "Surface du Carre : " << surface() << std::endl;
         }
     }

@@ -133,4 +133,5 @@ CMakeFiles/TP5_C.dir/Util/menu.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
  C:/Users/maxim/Documents/TP5_C/TP5_C/Header/Exercice1.h \
- C:\Users\maxim\Documents\TP5_C\TP5_C\Util\Gestion_Erreur.h
+ C:\Users\maxim\Documents\TP5_C\TP5_C\Util\Gestion_Erreur.h \
+ C:/Users/maxim/Documents/TP5_C/TP5_C/Exercice2/inc/PFormeGeometrique/Exercice2.h

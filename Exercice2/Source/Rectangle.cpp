@@ -8,9 +8,9 @@
     namespace PFormeGeometrique {
 
         void Rectangle::affichage() const {
-            std::cout << "Rectangle de longueur " << a_longueur << " et de largeur " << a_largeur << std::endl;
-            std::cout << "Le périmètre est de " << perimetre() << std::endl;
-            std::cout << "Surface " << surface() << std::endl;
+            std::cout << "Rectangle de longueur : " << a_longueur << " et de largeur : " << a_largeur << std::endl;
+            std::cout << "Le perimetre du Rectangle est de : " << perimetre() << std::endl;
+            std::cout << "Surface du Rectangle : " << surface() << std::endl;
         }
 
          double Rectangle::perimetre() const {

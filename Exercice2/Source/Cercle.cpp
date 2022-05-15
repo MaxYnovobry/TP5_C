@@ -14,9 +14,9 @@ namespace PFormeGeometrique {
     }
 
     void Cercle::affichage() const{
-        std::cout << "Cercle de diamètre " << rayon * 2 << '\n';
-        std::cout << "Le Périmètre est de" << perimetre() << '\n';
-        std::cout << "Surface " << surface() << '\n';
+        std::cout << "Cercle de diametre : " << rayon * 2 << '\n';
+        std::cout << "Le Perimetre du Cercle est de : " << perimetre() << '\n';
+        std::cout << "Surface du Cercle est de : " << surface() << '\n';
     }
 
     double Cercle::surface() const{

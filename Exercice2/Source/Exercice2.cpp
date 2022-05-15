@@ -5,9 +5,8 @@
 #include "../inc/PFormeGeometrique/AFormeGeometrique.h"
 #include "../inc/PFormeGeometrique/Cercle.h"
 #include "../inc/PFormeGeometrique/Carre.h"
-#include "../inc/PFormeGeometrique/Rectangle.h"
 #include "../inc/PFormeGeometrique/Exercice2.h"
-#include "../inc/PFormeGeometrique/IFormeGeometrique.h"
+
 
 void PFormeGeometrique::ex2() {
     PFormeGeometrique::Cercle c("C10", 10.0);

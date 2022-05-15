@@ -132,4 +132,7 @@ CMakeFiles/TP5_C.dir/Exercice2/Source/Cercle.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
- C:/Users/maxim/Documents/TP5_C/TP5_C/Exercice2/inc/PFormeGeometrique/Cercle.h
+ C:/Users/maxim/Documents/TP5_C/TP5_C/Exercice2/inc/PFormeGeometrique/Cercle.h \
+ C:/Users/maxim/Documents/TP5_C/TP5_C/Exercice2/inc/PFormeGeometrique/AFormeGeometrique.h \
+ C:/Users/maxim/Documents/TP5_C/TP5_C/Exercice2/inc/PFormeGeometrique/IFormeGeometrique.h \
+ C:/Users/maxim/Documents/TP5_C/TP5_C/Util/debug.h

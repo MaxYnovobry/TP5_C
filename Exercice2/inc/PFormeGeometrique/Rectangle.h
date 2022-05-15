@@ -13,7 +13,7 @@
 
     namespace PFormeGeometrique {
         class Rectangle : public AFormeGeometrique {
-        private:
+        protected:
             double a_longueur;
             double a_largeur;
         public :
