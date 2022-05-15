@@ -64,13 +64,59 @@ namespace TP5_C {
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+    void Etudiant::afficherNotes() const {
+        // Afficher toutes les notes
+        std::cout << "Les notes de l'etudiant sont : " << getallNotes() << std::endl;
+        std::cout << "La moyenne est de : " << getMoyenne()  << std::endl;
+        std::cout << "La note minimale est de : " << minNotes() << std::endl;
+        std::cout << "La note maximale est de : " << maxNotes() << std::endl;
+    }
+
+
+    float Etudiant::getMoyenne() const {
+        float somme = 0;
+        for (int i = 0; i < notes.size(); i++) {
+            somme += notes[i];
+        }
+        return somme / notes.size();
+    }
+
+    float Etudiant::maxNotes() const{
+        float max = 0;
+        for (int i = 0; i < notes.size(); i++) {
+            if (notes[i] > max) {
+                max = notes[i];
+            }
+        }
+        return max;
+    }
+
+    float Etudiant::minNotes() const {
+        float min = notes[0];
+        for (int i = 0; i < notes.size(); i++) {
+            if (notes[i] < min) {
+                min = notes[i];
+            }
+        }
+        return min;
+    };
 
     void Etudiant::rentrerNote(float note ) {
         if (note < 0 || note > 20) {
-            std::cout << "Note invalide" << std::endl;
+            std::cout << "La note " << note << " n'est pas comprise entre 0 et 20. Elle ne sera donc pas prise en compte." << std::endl;
+        } else {
+            notes.push_back(note);
         }
-        notes.push_back(note);
     }
+
+
+        std::string Etudiant::getallNotes() const {
+            std::string allNotes = "";
+            for (int i = 0; i < notes.size(); i++) {
+                allNotes += std::to_string(notes[i]) + " ,  ";
+            }
+            return allNotes;
+        }
 
 }
 
