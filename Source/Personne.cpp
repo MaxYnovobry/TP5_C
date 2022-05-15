@@ -60,5 +60,7 @@ namespace TP5_C {
         return this->a_numero;
     }
 
+    //Create a method that enter a score
+
 }
 
