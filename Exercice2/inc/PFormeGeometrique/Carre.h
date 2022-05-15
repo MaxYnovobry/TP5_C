@@ -8,14 +8,13 @@
 #endif //TP5_C_CARRE_H
 #include <string>
 #include <iostream>
+#include "Rectangle.h"
 
 
-    namespace PFormeGeometrique {
-            class Carre {
-                private:
-                    double cote;
+namespace PFormeGeometrique {
+        class Carre : public Rectangle {
                 public:
-                    Carre(std::string , double _cote);
-                    void afficher() const;
+                    Carre(const std::string &nom , double longueur) : PFormeGeometrique::Rectangle(nom, longueur, longueur) {}
+                    void affichage() const;
             };
     }

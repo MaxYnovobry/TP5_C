@@ -8,11 +8,7 @@
 
 namespace PFormeGeometrique {
 
-    AFormeGeometrique::AFormeGeometrique(std::string nom) {
-        this->nom = nom;
-    }
-
-    std::string AFormeGeometrique::getnom() {
+    std::string AFormeGeometrique::getNom() const {
         return nom;
     }
 }

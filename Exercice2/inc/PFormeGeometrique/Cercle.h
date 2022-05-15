@@ -6,24 +6,23 @@
 #define TP5_C_CERCLE_H
 
 #include <string>
+#include "AFormeGeometrique.h"
 
 namespace PFormeGeometrique {
 
-    class Cercle {
+    class Cercle : public AFormeGeometrique {
     private:
         double rayon;
 
     public:
 
-        std::string nom;
+        Cercle(const std::string &nom,double rayon) : AFormeGeometrique(nom),rayon(rayon) {};
 
-        Cercle(std::string nom,double rayon);
+        double perimetre() const;
 
-        double Perimetre();
+        void affichage() const;
 
-        void afficher() const;
-
-        double surface();
+        double surface() const;
     };
 
     };
@@ -31,11 +30,5 @@ namespace PFormeGeometrique {
 
 
 
-
-
-
-
-
-}
 
 #endif //TP5_C_CERCLE_H

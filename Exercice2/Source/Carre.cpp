@@ -7,11 +7,10 @@
 
 
     namespace PFormeGeometrique {
-        Carre::Carre(std::string, double cote) {
-            this-> cote = cote;
-            std::cout << "Constructeur Carre" << std::endl;
-        }
-        void Carre::afficher() const{
-            std::cout << cote << std::endl;
+
+        void Carre::affichage() const{
+            std::cout << a_longueur << std::endl;
+            std::cout << "Le perimetre du Carre est de : " << perimetre() << std::endl;
+            std::cout << "Surface du Carre : " << surface() << std::endl;
         }
     }

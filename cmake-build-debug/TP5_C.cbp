@@ -84,6 +84,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Exercice2/Source/AFormeGeometrique.cpp">
+			<Option target="TP5_C"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Exercice2/Source/Carre.cpp">
+			<Option target="TP5_C"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Exercice2/Source/Cercle.cpp">
+			<Option target="TP5_C"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Exercice2/Source/Exercice2.cpp">
+			<Option target="TP5_C"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Exercice2/Source/Rectangle.cpp">
+			<Option target="TP5_C"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Exercice2/inc/PFormeGeometrique/AFormeGeometrique.h">
+			<Option target="TP5_C"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Exercice2/inc/PFormeGeometrique/Carre.h">
+			<Option target="TP5_C"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Exercice2/inc/PFormeGeometrique/Cercle.h">
+			<Option target="TP5_C"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Exercice2/inc/PFormeGeometrique/IFormeGeometrique.h">
+			<Option target="TP5_C"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Exercice2/inc/PFormeGeometrique/Rectangle.h">
+			<Option target="TP5_C"/>
+		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Header/Exercice1.h">
 			<Option target="TP5_C"/>
 		</Unit>
@@ -100,6 +130,9 @@
 			<Option target="TP5_C"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Util/Gestion_Erreur.h">
+			<Option target="TP5_C"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Util/debug.h">
 			<Option target="TP5_C"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TP5_C/Util/menu.cpp">
