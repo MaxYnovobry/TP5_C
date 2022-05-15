@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\CLionProjects\TP5_C
+CMAKE_SOURCE_DIR = C:\Users\maxim\Documents\TP5_C\TP5_C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\TP5_C\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\maxim\Documents\TP5_C\TP5_C\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\TP5_C\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\TP5_C\cmake-build-debug\CMakeFiles C:\Users\Admin\CLionProjects\TP5_C\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxim\Documents\TP5_C\TP5_C\cmake-build-debug\CMakeFiles C:\Users\maxim\Documents\TP5_C\TP5_C\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\TP5_C\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxim\Documents\TP5_C\TP5_C\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,126 @@ TP5_C: cmake_check_build_system
 TP5_C/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/build
 .PHONY : TP5_C/fast
+
+Exercice2/Source/AFormeGeometrique.obj: Exercice2/Source/AFormeGeometrique.cpp.obj
+.PHONY : Exercice2/Source/AFormeGeometrique.obj
+
+# target to build an object file
+Exercice2/Source/AFormeGeometrique.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/AFormeGeometrique.cpp.obj
+.PHONY : Exercice2/Source/AFormeGeometrique.cpp.obj
+
+Exercice2/Source/AFormeGeometrique.i: Exercice2/Source/AFormeGeometrique.cpp.i
+.PHONY : Exercice2/Source/AFormeGeometrique.i
+
+# target to preprocess a source file
+Exercice2/Source/AFormeGeometrique.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/AFormeGeometrique.cpp.i
+.PHONY : Exercice2/Source/AFormeGeometrique.cpp.i
+
+Exercice2/Source/AFormeGeometrique.s: Exercice2/Source/AFormeGeometrique.cpp.s
+.PHONY : Exercice2/Source/AFormeGeometrique.s
+
+# target to generate assembly for a file
+Exercice2/Source/AFormeGeometrique.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/AFormeGeometrique.cpp.s
+.PHONY : Exercice2/Source/AFormeGeometrique.cpp.s
+
+Exercice2/Source/Carre.obj: Exercice2/Source/Carre.cpp.obj
+.PHONY : Exercice2/Source/Carre.obj
+
+# target to build an object file
+Exercice2/Source/Carre.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Carre.cpp.obj
+.PHONY : Exercice2/Source/Carre.cpp.obj
+
+Exercice2/Source/Carre.i: Exercice2/Source/Carre.cpp.i
+.PHONY : Exercice2/Source/Carre.i
+
+# target to preprocess a source file
+Exercice2/Source/Carre.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Carre.cpp.i
+.PHONY : Exercice2/Source/Carre.cpp.i
+
+Exercice2/Source/Carre.s: Exercice2/Source/Carre.cpp.s
+.PHONY : Exercice2/Source/Carre.s
+
+# target to generate assembly for a file
+Exercice2/Source/Carre.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Carre.cpp.s
+.PHONY : Exercice2/Source/Carre.cpp.s
+
+Exercice2/Source/Cercle.obj: Exercice2/Source/Cercle.cpp.obj
+.PHONY : Exercice2/Source/Cercle.obj
+
+# target to build an object file
+Exercice2/Source/Cercle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Cercle.cpp.obj
+.PHONY : Exercice2/Source/Cercle.cpp.obj
+
+Exercice2/Source/Cercle.i: Exercice2/Source/Cercle.cpp.i
+.PHONY : Exercice2/Source/Cercle.i
+
+# target to preprocess a source file
+Exercice2/Source/Cercle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Cercle.cpp.i
+.PHONY : Exercice2/Source/Cercle.cpp.i
+
+Exercice2/Source/Cercle.s: Exercice2/Source/Cercle.cpp.s
+.PHONY : Exercice2/Source/Cercle.s
+
+# target to generate assembly for a file
+Exercice2/Source/Cercle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Cercle.cpp.s
+.PHONY : Exercice2/Source/Cercle.cpp.s
+
+Exercice2/Source/Exercice2.obj: Exercice2/Source/Exercice2.cpp.obj
+.PHONY : Exercice2/Source/Exercice2.obj
+
+# target to build an object file
+Exercice2/Source/Exercice2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Exercice2.cpp.obj
+.PHONY : Exercice2/Source/Exercice2.cpp.obj
+
+Exercice2/Source/Exercice2.i: Exercice2/Source/Exercice2.cpp.i
+.PHONY : Exercice2/Source/Exercice2.i
+
+# target to preprocess a source file
+Exercice2/Source/Exercice2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Exercice2.cpp.i
+.PHONY : Exercice2/Source/Exercice2.cpp.i
+
+Exercice2/Source/Exercice2.s: Exercice2/Source/Exercice2.cpp.s
+.PHONY : Exercice2/Source/Exercice2.s
+
+# target to generate assembly for a file
+Exercice2/Source/Exercice2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Exercice2.cpp.s
+.PHONY : Exercice2/Source/Exercice2.cpp.s
+
+Exercice2/Source/Rectangle.obj: Exercice2/Source/Rectangle.cpp.obj
+.PHONY : Exercice2/Source/Rectangle.obj
+
+# target to build an object file
+Exercice2/Source/Rectangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Rectangle.cpp.obj
+.PHONY : Exercice2/Source/Rectangle.cpp.obj
+
+Exercice2/Source/Rectangle.i: Exercice2/Source/Rectangle.cpp.i
+.PHONY : Exercice2/Source/Rectangle.i
+
+# target to preprocess a source file
+Exercice2/Source/Rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Rectangle.cpp.i
+.PHONY : Exercice2/Source/Rectangle.cpp.i
+
+Exercice2/Source/Rectangle.s: Exercice2/Source/Rectangle.cpp.s
+.PHONY : Exercice2/Source/Rectangle.s
+
+# target to generate assembly for a file
+Exercice2/Source/Rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP5_C.dir\build.make CMakeFiles/TP5_C.dir/Exercice2/Source/Rectangle.cpp.s
+.PHONY : Exercice2/Source/Rectangle.cpp.s
 
 Source/Exercice1.obj: Source/Exercice1.cpp.obj
 .PHONY : Source/Exercice1.obj
@@ -257,6 +377,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TP5_C
+	@echo ... Exercice2/Source/AFormeGeometrique.obj
+	@echo ... Exercice2/Source/AFormeGeometrique.i
+	@echo ... Exercice2/Source/AFormeGeometrique.s
+	@echo ... Exercice2/Source/Carre.obj
+	@echo ... Exercice2/Source/Carre.i
+	@echo ... Exercice2/Source/Carre.s
+	@echo ... Exercice2/Source/Cercle.obj
+	@echo ... Exercice2/Source/Cercle.i
+	@echo ... Exercice2/Source/Cercle.s
+	@echo ... Exercice2/Source/Exercice2.obj
+	@echo ... Exercice2/Source/Exercice2.i
+	@echo ... Exercice2/Source/Exercice2.s
+	@echo ... Exercice2/Source/Rectangle.obj
+	@echo ... Exercice2/Source/Rectangle.i
+	@echo ... Exercice2/Source/Rectangle.s
 	@echo ... Source/Exercice1.obj
 	@echo ... Source/Exercice1.i
 	@echo ... Source/Exercice1.s

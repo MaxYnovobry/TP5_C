@@ -72,12 +72,5 @@ namespace TP5_C {
         notes.push_back(note);
     }
 
-    void getMoyenne() {
-        float somme = 0;
-        for (int i = 0; i < note.size(); i++) {
-            somme += note[i];
-        }
-        std::cout << "La moyenne est de : " << somme / notes.size() << std::endl;
-    }
 }
 

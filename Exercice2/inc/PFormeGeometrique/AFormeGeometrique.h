@@ -6,16 +6,17 @@
 #define TP5_C_AFORMEGEOMETRIQUE_H
 
 #include <string>
+#include "IFormeGeometrique.h"
 
 namespace PFormeGeometrique {
 
-    class AFormeGeometrique {
+    class AFormeGeometrique : public IFormeGeometrique {
     private:
         std::string nom;
 
     public:
-        AFormeGeometrique(std::string nom);
-        std::string getnom();
+        AFormeGeometrique(std::string nom) : nom(nom) {};
+        std::string getNom() const;
     };
 
 };
