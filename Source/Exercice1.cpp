@@ -22,6 +22,5 @@ namespace TP5_C {
         p2.rentrerNote(20);
         p2.rentrerNote(22);
         p2.afficherNotes();
-
     }
 }
